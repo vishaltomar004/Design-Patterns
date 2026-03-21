@@ -6,6 +6,9 @@ public class Samosa {
     
     private Samosa(){
      
+        if(samosa != null){
+            throw new RuntimeException("You are breaking singleton");
+        }
     }
 
     public static Samosa getObject(){
