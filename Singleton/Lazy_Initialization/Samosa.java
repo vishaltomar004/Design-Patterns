@@ -1,4 +1,4 @@
-package Singleton;
+package Singleton.Lazy_Initialization;
 
 public class Samosa {
 

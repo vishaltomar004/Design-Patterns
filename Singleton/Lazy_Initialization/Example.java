@@ -1,4 +1,4 @@
-package Singleton;
+package Singleton.Lazy_Initialization;
 
 public class Example {
   
@@ -6,6 +6,7 @@ public class Example {
         
       Samosa s1 =  Samosa.getObject();
        System.out.println(s1.hashCode());
+
       Samosa s2 = Samosa.getObject();
       System.out.println(s2.hashCode());
      
