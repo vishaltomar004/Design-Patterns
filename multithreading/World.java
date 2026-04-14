@@ -1,4 +1,4 @@
-public class World implements Runnable {
+public class World extends Thread{
     
     @Override
     public void run(){
